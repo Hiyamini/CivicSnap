@@ -1,0 +1,11 @@
+package com.civicsnap;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CivicSnapApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(CivicSnapApplication.class, args);
+    }
+}
